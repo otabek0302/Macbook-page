@@ -1,0 +1,23 @@
+$--blue: #0071E3;
+.container {
+     width: 1140px;
+     display: block;
+     margin: 0 auto;
+}
+.row
+{
+     display: flex;
+     flex-wrap: wrap;
+}
+.btn {
+     background-color: $--blue;
+     border-radius: 10px;
+     padding: 10px 29px;
+}
+.active_border {
+     border-color: $--blue!important;
+}
+.active_btn {
+     background-color: $--blue!important;
+     color: #fff!important;
+}

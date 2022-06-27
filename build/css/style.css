@@ -1,0 +1,221 @@
+.container {
+  width: 1140px;
+  display: block;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #0071E3;
+  border-radius: 10px;
+  padding: 10px 29px;
+}
+
+.active_border {
+  border-color: #0071E3 !important;
+}
+
+.active_btn {
+  background-color: #0071E3 !important;
+  color: #fff !important;
+}
+
+.header_section {
+  display: block;
+}
+
+.header_section .header {
+  display: block;
+  width: 1100px;
+  padding: 0 45px;
+}
+
+.header_section .header .header_title_h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 60px;
+  margin: 70px 0 24px;
+}
+
+.header_section .header .header_text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+main {
+  display: block;
+}
+
+main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .content .content_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .content .content_top .content_top_img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  width: 300px;
+}
+
+main .content .content_top .content_top_img img {
+  width: 100%;
+}
+
+main .content .content_top .content_top_text {
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 10px;
+}
+
+main .content .content_top .content_top_text .title_product {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 48px;
+  color: #000000;
+}
+
+main .content .content_top .content_top_text .color {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  margin-left: 5px;
+  color: #0071E3;
+}
+
+main .content .content_top .content_top_text .price {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px !important;
+  line-height: 59px;
+  margin-top: 48px;
+  color: #000000;
+}
+
+main .content .content_bottom .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  margin: 0;
+}
+
+main .content .content_bottom .row .color_mac_list {
+  margin-top: 53px;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 321px;
+}
+
+main .content .content_bottom .row .color_mac_list .color_mac_item {
+  padding: 10px 40px;
+  color: #797979;
+  background-color: #CFE7FF;
+}
+
+main .content .content_bottom .row .memory_mac_list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .content .content_bottom .row .memory_mac_list .memory_mac_item {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  /* identical to box height */
+  width: 321px;
+  height: 57px;
+  border: 1px solid #CFE7FF;
+  color: #000000;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+main .content .content_bottom .row .memory_mac_list .memory_mac_item span {
+  margin: 0 5px;
+}
